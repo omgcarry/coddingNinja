@@ -1,0 +1,64 @@
+/**
+ * Theme Name: Test child
+ * Description: Test child Theme
+ * Template: twentyseventeen
+ * Author: Petya Kucher
+ * Version: 1.0.0
+ */
+
+/* ----------------------------------------------------------------------------
+ * Child Theme Style.css styles begin here!
+ * ------------------------------------------------------------------------- */
+
+footer .contact{
+    float: right;
+}
+footer .contact a{
+    display: block;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+footer .contact .callPopup{
+    display: inline-block;
+    text-decoration: none;
+    background: #000;
+    color: #ffffff;
+    font-weight:700;
+    text-align: center;
+    padding: 8px 12px;
+    line-height: 1.4;
+    font-size: 16px;
+    margin-top:5px;
+}
+.summary div > p{
+    clear: both;
+    margin-top: 15px;
+}
+@media screen and (max-width: 767px){
+    footer .contact {
+        float: none;
+        width: 300px;
+        margin: 0 auto;
+    }
+    footer .contact a span{
+        display: none;
+    }
+    footer .site-info{
+        float: none;
+        text-align: center;
+        margin-top:20px;
+    }
+    footer .contact a {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        background: #000;
+        color: #ffffff;
+        font-weight:700;
+        text-align: center;
+        padding: 8px 12px;
+        line-height: 1.4;
+        font-size: 16px;
+        margin-top:10px;
+    }
+}
